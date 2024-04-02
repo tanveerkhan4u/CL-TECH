@@ -1,14 +1,28 @@
 import React from 'react'
 import './App.css'
+import { BrowserRouter, Link, Route, Routes, NavLink, } from 'react-router-dom';
+import Home from './Components/Home';
+import Navbar from './Components/Navbar';
 
 function App() {
   
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <BrowserRouter>
+      <Navbar></Navbar>
+      <Routes>
+      <Route path='/Home' element={<Home />} />
+      <Route path='/Navbar' element={<Navbar />} />
+      
+      
+      
+      </Routes>
+      </BrowserRouter>
+
+
+
+
     </>
   )
 }
