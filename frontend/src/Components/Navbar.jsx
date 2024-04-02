@@ -3,13 +3,16 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <div className='container-fluid  bg-blue-800'>
-        <div className='grid  grid-cols-4 md:col-span-2'>
-          <h1>yhjekfbjwekvb</h1>
-          <h1>yhjekfbjwekvb</h1>
-          <h1>yhjekfbjwekvb</h1>
-          <h1>yhjekfbjwekvb</h1>
-          {/* <h1>yhjekfbjwekvb</h1> */}
+      <div className='container-fluid  bg-[#16154d]'>
+        <div className='grid gap-4 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-12  lg:gap-32  p-2 lg:ml-40 p-4 '>
+
+          <div className=' bg-[#D9EEE1] text-md   lg:w-28 h-auto    rounded-lg hover:bg-[#ff6c00] text-center flex items-center justify-center '>Enquiry Here</div>
+          
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-[#ff6c00] flex items-center justify-center'>Franchise Details</div>
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-[#ff6c00] flex items-center justify-center'>Apply Franchise</div>
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-[#ff6c00] flex items-center justify-center'>Franchise Login</div>
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto  rounded-lg hover:bg-[#ff6c00] flex items-center justify-center '>Student Login</div>
+          
         </div>
       </div>
       <nav className="bg-gray-800">
