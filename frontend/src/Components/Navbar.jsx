@@ -1,21 +1,34 @@
 import React from 'react'
+import download2 from './Images/download2.png'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
     <div>
       <div className='container-fluid  bg-[#16154d]'>
-        <div className='grid gap-4 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-12  lg:gap-32  p-2 lg:ml-40 p-4 '>
+        <div className='grid gap-4 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-12  lg:gap-32   lg:ml-64 p-2 '>
 
-          <div className=' bg-[#D9EEE1] text-md   lg:w-28 h-auto    rounded-lg hover:bg-[#ff6c00] text-center flex items-center justify-center '>Enquiry Here</div>
-          
-          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-[#ff6c00] flex items-center justify-center'>Franchise Details</div>
-          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-[#ff6c00] flex items-center justify-center'>Apply Franchise</div>
-          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-[#ff6c00] flex items-center justify-center'>Franchise Login</div>
-          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto  rounded-lg hover:bg-[#ff6c00] flex items-center justify-center '>Student Login</div>
-          
+          <div className=' bg-[#D9EEE1] text-md   lg:w-28 h-auto  px-4  rounded-lg hover:bg-amber-200 text-center flex items-center justify-center font-semibold '>Enquiry Here</div>
+
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-amber-200 flex items-center justify-center font-semibold '>Franchise Details</div>
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-amber-200 flex items-center justify-center px-4 font-semibold'>Apply Franchise</div>
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto rounded-lg hover:bg-amber-200 flex items-center justify-center px-4 font-semibold'>Franchise Login</div>
+          <div className=' bg-[#D9EEE1] text-md  text-center lg:w-28 h-auto  rounded-lg hover:bg-amber-200 flex items-center justify-center px-4 font-semibold'>Student Login</div>
+
         </div>
       </div>
-      <nav className="bg-gray-800">
+      <div className='container-fluid grid sm:grid-cols-3  md:grid-cols-3 lg:grid-cols-3  bg-yellow-50'>
+        <img src={download2} className=' w-32 h-auto  lg:ml-60 '  alt='CL-TECH' />
+        <div className='text-4xl  mt-5'>
+          <h1 className='font-serif font-bold text-emerald-700 hover:text-emerald-500  mr-8 text-center'>CL-TECH INSTITUTE OF INDIA</h1>
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Skill_India.png" className='w-32 h-auto lg:ml-20 mt-2' alt="" />
+
+      </div>
+
+
+      <nav className="bg-[#FA7B1D]">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -69,41 +82,35 @@ const Navbar = () => {
               </button>
             </div>
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <div className="flex flex-shrink-0 items-center">
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                  alt="Your Company"
-                />
-              </div>
+              
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                  <a
-                    href="#"
-                    className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                  <Link
+                    to="/Home"
+                    className="text-white rounded-md px-3 py-2 text-xl font-bold"
                     aria-current="page"
                   >
-                    Dashboard
+                    HOME
+                  </Link>
+                  <a
+                    href="#"
+                    className="text-white rounded-md px-3 py-2 text-xl font-bold"
+                  >
+                  ABOUT
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-white rounded-md px-3 py-2 text-xl font-bold"
                   >
-                    Team
+                    GALLERY
                   </a>
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  <Link to='/Login'
+                    
+                    className="text-white  rounded-md px-3 py-2 text-xl font-bold"
                   >
-                    Projects
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                  >
-                    Calendar
-                  </a>
+                    LOGIN
+                  </Link>
                 </div>
               </div>
             </div>
@@ -169,28 +176,28 @@ const Navbar = () => {
             {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
             <a
               href="#"
-              className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+              className=" text-white block rounded-md px-3 py-2 text-base font-bold"
               aria-current="page"
             >
-              Dashboard
+              HOME
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Team
+              ABOUT
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Projects
+              GALLERY
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Calendar
+              LOGIN
             </a>
           </div>
         </div>
