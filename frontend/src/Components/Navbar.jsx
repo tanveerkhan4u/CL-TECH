@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
+    <div style={{overflow:'hidden'}}>
       <div className='container-fluid  bg-[#16154d]'>
         <div className='grid gap-4 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-12  lg:gap-32   lg:ml-64 p-2 '>
 
