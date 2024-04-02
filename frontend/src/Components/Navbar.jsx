@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div className='container-fluid  bg-blue-800'>
-        <div className='grid  grid-rows-1  grid-flow-col gap-4 auto-cols-max md:auto-cols-min'>
+        <div className='grid  grid-cols-4 md:col-span-2'>
           <h1>yhjekfbjwekvb</h1>
           <h1>yhjekfbjwekvb</h1>
           <h1>yhjekfbjwekvb</h1>
