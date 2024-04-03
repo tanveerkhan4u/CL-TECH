@@ -53,10 +53,15 @@ const Home = () => {
           <p className='text-sm  sm:ml-10 lg:ml-20 text-start mt-3 '>Digital Computer Institute has been registered under the Government of India, working in different fields of Programme & Commercial Training sponsored by the Central Government by taking a vow to approach every class of Youth in the society. The Organization is also certified by ISO 9001: 2015. The Institute & the Organization is also Registered under the Ministry of CR Act 1957, MHRD, Govt. of India, Ministry of Corporate Affairs (MCA), Ministry of Micro, Small & Medium Enterprises (MSME), NCS – National career Service, Ministry of Labour & Employment and Ministry of AYUSH and is accredited to conduct the various fields of technical programs sponsored by both the Govt.
             Digital Computer Institute The main function of the society is to provide higher technical education in nominal charges for every group of society of Urban & Rural areas all over India and get success in computer revolution which is the main dream of Indian Govt.</p>
         </div>
-            <div className=''>
+        <div className=''>
           <img src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" className='' alt="" />
-          </div>
+        </div>
 
+      </div>
+      <div className='sm:container  mt-5 rounded-lg mx-auto bg-[#04AA6D]'>
+        <div className='grid grid-cols-1  p-4 mb-5'>
+          <h1 className='text-md text-white'>yuvehjkbfeklhj</h1>
+        </div>
       </div>
     </div>
   )
