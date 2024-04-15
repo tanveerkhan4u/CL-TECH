@@ -50,22 +50,59 @@ const Home = () => {
 
 
       </Swiper>
-      <div className='grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2  gap-48  mt-5'>
-        <div className='text-3xl text-center'>
-          <h1 className='text font-bold lg:ml-20 '>WELCOME TO DIGITAL COMPUTER INSTITUTE</h1>
-          <p className='text-base  sm:ml-10 lg:ml-20 text-start mt-3 '>Digital Computer Institute has been registered under the Government of India, working in different fields of Programme & Commercial Training sponsored by the Central Government by taking a vow to approach every class of Youth in the society. The Organization is also certified by ISO 9001: 2015. The Institute & the Organization is also Registered under the Ministry of CR Act 1957, MHRD, Govt. of India, Ministry of Corporate Affairs (MCA), Ministry of Micro, Small & Medium Enterprises (MSME), NCS – National career Service, Ministry of Labour & Employment and Ministry of AYUSH and is accredited to conduct the various fields of technical programs sponsored by both the Govt.<br/>
-            Digital Computer Institute The main function of the society is to provide higher technical education in nominal charges for every group of society of Urban & Rural areas all over India and get success in computer revolution which is the main dream of Indian Govt.</p>
+      <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:gap-48 mt-5'>
+        <div className='text-3xl text-center '>
+          <h1 className='text font-bold lg:ml-20  mt-5 '>WELCOME TO DIGITAL COMPUTER INSTITUTE</h1>
+          <p className='text-base text-gray-500 lg:ml-20  text-start  mt-5 mb-5'><strong className='text-gray-500'>Digital Computer Institute</strong> has been registered under the Government of India, working in different fields of Programme & Commercial Training sponsored by the Central Government by taking a vow to approach every class of Youth in the society. The Organization is also certified by ISO 9001: 2015. The Institute & the Organization is also Registered under the Ministry of CR Act 1957, MHRD, Govt. of India, Ministry of Corporate Affairs (MCA), Ministry of Micro, Small & Medium Enterprises (MSME), NCS – National career Service, Ministry of Labour & Employment and Ministry of AYUSH and is accredited to conduct the various fields of technical programs sponsored by both the Govt.<br />
+            <strong className='text-gray-500'>Digital Computer Institute </strong>The main function of the society is to provide higher technical education in nominal charges for every group of society of Urban & Rural areas all over India and get success in computer revolution which is the main dream of Indian Govt.</p>
         </div>
-        <div className=''>
-          <img src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" className='' alt="" />
+        <div className='mt-5'>
+          <img src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" className='img fluid ' alt="" />
         </div>
 
       </div>
       <div className='sm:container  mt-5 rounded-lg mx-auto bg-[#04AA6D]'>
         <div className='grid grid-cols-1  p-4 mb-5'>
-        <Marquee gradient={false} speed={40} pauseOnHover={true}>
-          <h1 className='text-md text-white'>free government computer courses franchise* govt free computer education franchise* computer institute franchise* computer education franchise in village area* govt computer education franchise* computer center franchise* free franchise for computer center* govt schemes for computer education* ngo scheme for computer education* mputer training institute franchise* computer institute franchise absolutely free* free computer education scheme* govt project for computer education* computer training franchise* computer institute franchise* computer courses franchise* free computer center franchise* ngo franchise for computer education* government franchise for computer institute* most profitable computer education franchises* free computer education by ngo* franchise of educational institute* computer education institute franchise* study centre franchise* indian computer institute franchise form* computer education franchise in bangalore* central government computer courses franchise* government computer courses franchise* free govt computer courses* abacus franchise* free computer education* skill development institute franchise* computer education center registration* franchise for vocational courses* vocational training institute franchise* computer institute govt registration* youth computer training centre franchise* ngo computer education franchise* computer training centre affiliation* franchise opportunities in hyderabad* computer franchise* best computer institute franchise* franchise opportunities in pune* central government schemes for free computer education* government certified computer courses* govt approved computer courses* franchise opportunities in kerala* digital india franchise* franchise in hyderabad* government approved computer institute* online computer courses in india* govt recognised computer institute franchise* franchise opportunities in tamilnadu* education franchise opportunities* franchise opportunities in kolkata* free computer education project* govt computer course franchise* central government computer education scheme* education franchise in india* distance education franchise* govt affiliation for computer institute* computer training center business registration* institute of computer education* new business franchise* free computer education program* govt computer training center* franchise options in india* free franchise in india* central government project for computer education* top education franchises* computer saksharta mission* top franchise in india* central government free computer courses* free online computer courses in india* all india computer saksharta mission* government computer training institutes* franchise opportunities in andhra pradesh* government computer training scheme* govt approved computer institute* new computer institute registration* how to register computer training institute* registration of computer training institute* central govt scheme for computer education* computer franchise business* computer institute registration* franchise opportunities in gujarat* How to register computer center* emaxindia* sarvaindia* sarvaindia.com* emaxindia.in* gbindia* globalbrain* gbindia.in* computer center franchise in auraiya* how to register computer institute in auraiya</h1>
+          <Marquee gradient={false} speed={40} pauseOnHover={true}>
+            <h1 className='text-md text-white'>free government computer courses franchise* govt free computer education franchise* computer institute franchise* computer education franchise in village area* govt computer education franchise* computer center franchise* free franchise for computer center* govt schemes for computer education* ngo scheme for computer education* mputer training institute franchise* computer institute franchise absolutely free* free computer education scheme* govt project for computer education* computer training franchise* computer institute franchise* computer courses franchise* free computer center franchise* ngo franchise for computer education* government franchise for computer institute* most profitable computer education franchises* free computer education by ngo* franchise of educational institute* computer education institute franchise* study centre franchise* indian computer institute franchise form* computer education franchise in bangalore* central government computer courses franchise* government computer courses franchise* free govt computer courses* abacus franchise* free computer education* skill development institute franchise* computer education center registration* franchise for vocational courses* vocational training institute franchise* computer institute govt registration* youth computer training centre franchise* ngo computer education franchise* computer training centre affiliation* franchise opportunities in hyderabad* computer franchise* best computer institute franchise* franchise opportunities in pune* central government schemes for free computer education* government certified computer courses* govt approved computer courses* franchise opportunities in kerala* digital india franchise* franchise in hyderabad* government approved computer institute* online computer courses in india* govt recognised computer institute franchise* franchise opportunities in tamilnadu* education franchise opportunities* franchise opportunities in kolkata* free computer education project* govt computer course franchise* central government computer education scheme* education franchise in india* distance education franchise* govt affiliation for computer institute* computer training center business registration* institute of computer education* new business franchise* free computer education program* govt computer training center* franchise options in india* free franchise in india* central government project for computer education* top education franchises* computer saksharta mission* top franchise in india* central government free computer courses* free online computer courses in india* all india computer saksharta mission* government computer training institutes* franchise opportunities in andhra pradesh* government computer training scheme* govt approved computer institute* new computer institute registration* how to register computer training institute* registration of computer training institute* central govt scheme for computer education* computer franchise business* computer institute registration* franchise opportunities in gujarat* How to register computer center* emaxindia* sarvaindia* sarvaindia.com* emaxindia.in* gbindia* globalbrain* gbindia.in* computer center franchise in auraiya* how to register computer institute in auraiya</h1>
           </Marquee>
+        </div>
+      </div>
+      <div className='w-full bg-[#996666]'>
+        <div className='grid gap-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center'>
+        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+            <div className="md:flex">
+              <div className="md:flex-shrink-0">
+                <img className="h-48 w-full object-cover md:w-48" src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" alt="An image" />
+              </div>
+              <div className="p-8">
+                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Your title here</div>
+                <p className="mt-2 text-gray-500">Your content here</p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+            <div className="md:flex">
+              <div className="md:flex-shrink-0">
+                <img className="h-48 w-full object-cover md:w-48" src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" alt="An image" />
+              </div>
+              <div className="p-8">
+                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Your title here</div>
+                <p className="mt-2 text-gray-500">Your content here</p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+            <div className="md:flex">
+              <div className="md:flex-shrink-0">
+                <img className="h-48 w-full object-cover md:w-48" src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" alt="An image" />
+              </div>
+              <div className="p-8">
+                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Your title here</div>
+                <p className="mt-2 text-gray-500">Your content here</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div >
