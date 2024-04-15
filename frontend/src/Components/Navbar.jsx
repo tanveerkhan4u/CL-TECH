@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div  style={{overflow:'hidden'}}>
-      <div className='container-fluid  bg-[#16154d]'>
+      <div className=' container-fluid  bg-[#16154d]'>
         <div className='grid gap-4 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-12  lg:gap-32   lg:ml-64 p-2 '>
 
           <div className=' bg-[#D9EEE1] text-md   lg:w-28 h-auto  px-4  rounded-lg hover:bg-amber-200 text-center flex items-center justify-center font-semibold '>Enquiry Here</div>
@@ -18,7 +18,7 @@ const Navbar = () => {
 
         </div>
       </div>
-      <div className='container-fluid grid sm:grid-cols-3  md:grid-cols-3 lg:grid-cols-3  bg-yellow-50'>
+      <div className='  container-fluid grid sm:grid-cols-3  md:grid-cols-3 lg:grid-cols-3  bg-yellow-50'>
         <img src={download2} className=' w-32 h-auto  lg:ml-60 '  alt='CL-TECH' />
         <div className='text-4xl  mt-5'>
           <h1 className='font-serif font-bold text-emerald-700 hover:text-emerald-500  mr-8 text-center'>CL-TECH INSTITUTE OF INDIA</h1>

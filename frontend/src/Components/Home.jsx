@@ -75,13 +75,14 @@ const Home = () => {
               <div className="md:flex-shrink-0">
                 <img className="h-48 w-full object-cover md:w-48" src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" alt="An image" />
               </div>
-              <div className="p-8">
-                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Your title here</div>
+              <div className="p-8 h-20 w-full">
+              <Marquee  speed={100} pauseOnHover direction='up' >
                 <p className="mt-2 text-gray-500">Your content here</p>
+                </Marquee>
               </div>
             </div>
           </div>
-          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+          {/* <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
                 <img className="h-48 w-full object-cover md:w-48" src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" alt="An image" />
@@ -102,7 +103,7 @@ const Home = () => {
                 <p className="mt-2 text-gray-500">Your content here</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div >
