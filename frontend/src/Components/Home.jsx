@@ -28,24 +28,24 @@ const Home = () => {
       >
         <SwiperSlide>
           <div className=''>
-            <img src="https://www.itcomputerinstitute.com/upload/gallery/155367585327351.jpg" className='mx-auto h-auto w-100' alt="" />
+            <img src="https://www.itcomputerinstitute.com/upload/gallery/155367585327351.jpg" className='img-fluid h-96 w-screen object-cover' alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='' >
-            <img src="https://lh3.googleusercontent.com/p/AF1QipO-8U0wXa5QcGWPSej-uNC5mWTHdC0iS0u_bfiZ=w1080-h608-p-no-v0" className='mx-auto h-auto w-100' alt="" />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipO-8U0wXa5QcGWPSej-uNC5mWTHdC0iS0u_bfiZ=w1080-h608-p-no-v0" className='img-fluid h-96 w-screen object-cover' alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='' >
-            <img src="https://content.jdmagicbox.com/comp/kolkata/m8/033pxx33.xx33.160929210019.z5m8/catalogue/computer-programming-center-belgharia-kolkata-computer-training-institutes-8ga2g.jpg" className='mx-auto h-auto w-100' alt="" />
+            <img src="https://content.jdmagicbox.com/comp/kolkata/m8/033pxx33.xx33.160929210019.z5m8/catalogue/computer-programming-center-belgharia-kolkata-computer-training-institutes-8ga2g.jpg" className='img-fluid h-96 w-screen object-cover' alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='' >
-            <img src="https://content.jdmagicbox.com/comp/kheda/a9/9999p2694.2694.240127173918.s7a9/catalogue/siddh-institute-kheda-camp-kheda-computer-training-institutes-tvfuy02ppe.jpg" className='mx-auto h-auto w-100' alt="" />
+            <img src="https://content.jdmagicbox.com/comp/kheda/a9/9999p2694.2694.240127173918.s7a9/catalogue/siddh-institute-kheda-camp-kheda-computer-training-institutes-tvfuy02ppe.jpg" className='img-fluid h-96 w-screen object-cover' alt="" />
           </div>
-          <br />
+          <br /><br />
         </SwiperSlide>
 
 
@@ -70,14 +70,14 @@ const Home = () => {
       </div>
       <div className='w-full bg-[#996666]'>
         <div className='grid gap-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center'>
-        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
+          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-4">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
                 <img className="h-48 w-full object-cover md:w-48" src="https://www.digitalcomputerinstitute.com/new/product/category/1632892464871.jpg" alt="An image" />
               </div>
               <div className="p-8 h-20 w-full">
-              <Marquee  speed={100} pauseOnHover direction='up' >
-                <p className="mt-2 text-gray-500">Your content here</p>
+                <Marquee speed={100} pauseOnHover direction='up' >
+                  <p className="mt-2 text-gray-500">Your content here</p>
                 </Marquee>
               </div>
             </div>
