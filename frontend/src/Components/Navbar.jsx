@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div  style={{overflow:'hidden'}}>
       <div className=' container-fluid  bg-[#16154d]'>
-        <div className='grid gap-4 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-12  lg:gap-32   lg:ml-64 p-2 '>
+        <div className='grid gap-4  sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-12  lg:gap-32   lg:ml-64 p-2 '>
 
           <div className=' bg-[#D9EEE1] text-md   lg:w-28 h-auto  px-4  rounded-lg hover:bg-amber-200 text-center flex items-center justify-center font-semibold '>Enquiry Here</div>
 
