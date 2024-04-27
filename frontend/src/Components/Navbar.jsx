@@ -18,7 +18,7 @@ const Navbar = () => {
 
         </div>
       </div>
-      <div className='  container   grid sm:grid-rows-3  md:grid-rows-3 lg:grid-rows-3  bg-yellow-50'>
+      <div className='  container-fluid   grid sm:grid-rows-3  md:grid-rows-3 lg:grid-rows-3  bg-yellow-50'>
         <img src={download2} className=' w-32 h-auto   '  alt='CL-TECH' />
         <div className='text-4xl  mt-5'>
           <h1 className='font-serif font-bold text-emerald-700 hover:text-emerald-500  mr-8 text-center'>CL-TECH INSTITUTE OF INDIA</h1>
